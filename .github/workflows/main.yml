@@ -1,0 +1,27 @@
+姓名: 建立：分布：temurin:temurin:tidin:temurin建立：
+在……之上::::::
+工作流程分派(_D)：:
+输入：：::::
+包名称(_n)：:
+描述: "游戏包名"
+必需的: 正确
+
+工作::::::
+建立::::::
+连续的：Ubuntu-最新
+步骤::::::
+-uses：操作/结帐@v4
+-用途：操作/设置-Java@v4：操作/设置-Java@v4：操作/设置-Java@v4：操作/设置-Java@v4: 操作/设置-Java@v4
+和……一起:::::
+分布：貂皮素：貂皮素：貂皮素：貂皮素：貂皮素：貂皮素: tidin:temurin
+java版：11:11: 11
+缓存: G拉德尔:
+-跑: |：|:|：|
+chmod+x./gradlew
+-uses：操作/上载工件@v4"/moduleDescription="(${{GitHub。事件。输入.包名称}})/g'模块。Gradle
+SED-i"s/com。游戏。PackageName/${{github。事件。输入.包名称}/g"模块/src/main/cpp/Game.h
+./gradlew：模块：assemblyRelease
+-uses: 操作/上载工件@v4
+和……一起:
+姓名：zygisk-il2cppdumper: zygisk-il2cppdumper
+路径: out/magisk_module_release/
